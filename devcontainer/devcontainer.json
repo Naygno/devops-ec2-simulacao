@@ -1,0 +1,10 @@
+{
+  "name": "Amazon Linux Simulado",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "features": {},
+  "forwardPorts": [],
+  "postCreateCommand": "bash scripts/setup.sh"
+}
